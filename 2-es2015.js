@@ -1,0 +1,58 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[2],{
+
+/***/ "../corporate-ui-dev/dist/esm/c-dealer-header.entry.js":
+/*!*************************************************************!*\
+  !*** ../corporate-ui-dev/dist/esm/c-dealer-header.entry.js ***!
+  \*************************************************************/
+/*! exports provided: c_dealer_header */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c_dealer_header", function() { return DealerHeader; });
+/* harmony import */ var _core_536a6045_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-536a6045.js */ "../corporate-ui-dev/dist/esm/core-536a6045.js");
+
+
+const DealerHeader = class {
+    constructor(hostRef) {
+        Object(_core_536a6045_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        /** A link that will be applied to the site-name */
+        this.siteUrl = '/';
+        this.ContextStore = Object(_core_536a6045_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "store");
+    }
+    setTheme(name = undefined) {
+        this.theme = name || this.store.getState().theme.name;
+        this.currentTheme = this.store.getState().themes[this.theme];
+    }
+    componentWillLoad() {
+        this.store = this.ContextStore || window.CorporateUi.store;
+        this.setTheme(this.theme);
+        this.store.subscribe(() => {
+            this.setTheme();
+        });
+        if (!(this.el && this.el.nodeName))
+            return;
+        this.tagName = this.el.nodeName.toLowerCase();
+    }
+    render() {
+        return [
+            this.currentTheme ? Object(_core_536a6045_js__WEBPACK_IMPORTED_MODULE_0__["h"])("style", null, this.currentTheme[this.tagName]) : '',
+            Object(_core_536a6045_js__WEBPACK_IMPORTED_MODULE_0__["h"])("c-header", { "site-name": this.siteName, "short-name": this.shortName, "site-url": this.siteUrl, variation: 'dealer' }, this.logo
+                ? Object(_core_536a6045_js__WEBPACK_IMPORTED_MODULE_0__["h"])("img", { src: this.logo, alt: this.siteName, slot: 'brand-logo' })
+                : Object(_core_536a6045_js__WEBPACK_IMPORTED_MODULE_0__["h"])("strong", { class: 'navbar-title', slot: 'brand-logo' }, this.siteName), Object(_core_536a6045_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", { name: 'items', slot: 'items' })),
+        ];
+    }
+    get el() { return Object(_core_536a6045_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this); }
+    static get watchers() { return {
+        "theme": ["setTheme"]
+    }; }
+    static get style() { return ":host {\n  display: block;\n}\n:host,\n:host *,\n:host *::before,\n:host *::after {\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\na {\n  text-decoration: none;\n}\na:hover {\n  text-decoration: underline;\n}\n\nimg {\n  max-height: 30px;\n}"; }
+};
+
+
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=2-es2015.js.map

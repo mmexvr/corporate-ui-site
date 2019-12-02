@@ -1,17 +1,16 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[0],{
 
-/***/ "../corporate-ui-dev/dist/esm/_commonjsHelpers-8038b6d5.js":
-/*!*****************************************************************!*\
-  !*** ../corporate-ui-dev/dist/esm/_commonjsHelpers-8038b6d5.js ***!
-  \*****************************************************************/
-/*! exports provided: a, c, g, u */
+/***/ "./node_modules/corporate-ui-dev/dist/esm/_commonjsHelpers-91036208.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/corporate-ui-dev/dist/esm/_commonjsHelpers-91036208.js ***!
+  \*****************************************************************************/
+/*! exports provided: a, c, u */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return commonjsGlobal; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return createCommonjsModule; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return getCjsExportFromNamespace; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return unwrapExports; });
 var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 
@@ -36,22 +35,22 @@ function getCjsExportFromNamespace (n) {
 
 /***/ }),
 
-/***/ "../corporate-ui-dev/dist/esm/c-code-sample.entry.js":
-/*!***********************************************************!*\
-  !*** ../corporate-ui-dev/dist/esm/c-code-sample.entry.js ***!
-  \***********************************************************/
+/***/ "./node_modules/corporate-ui-dev/dist/esm/c-code-sample.entry.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/corporate-ui-dev/dist/esm/c-code-sample.entry.js ***!
+  \***********************************************************************/
 /*! exports provided: c_code_sample */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c_code_sample", function() { return Field; });
-/* harmony import */ var _core_536a6045_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-536a6045.js */ "../corporate-ui-dev/dist/esm/core-536a6045.js");
-/* harmony import */ var _commonjsHelpers_8038b6d5_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./_commonjsHelpers-8038b6d5.js */ "../corporate-ui-dev/dist/esm/_commonjsHelpers-8038b6d5.js");
+/* harmony import */ var _core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-7b39e2be.js */ "./node_modules/corporate-ui-dev/dist/esm/core-7b39e2be.js");
+/* harmony import */ var _commonjsHelpers_91036208_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./_commonjsHelpers-91036208.js */ "./node_modules/corporate-ui-dev/dist/esm/_commonjsHelpers-91036208.js");
 
 
 
-var highlight = Object(_commonjsHelpers_8038b6d5_js__WEBPACK_IMPORTED_MODULE_1__["c"])(function (module, exports) {
+var highlight = Object(_commonjsHelpers_91036208_js__WEBPACK_IMPORTED_MODULE_1__["c"])(function (module, exports) {
 /*
 Syntax highlighting with language autodetection.
 https://highlightjs.org/
@@ -23130,7 +23129,7 @@ var lib = highlight;
 
 const Field = class {
     constructor(hostRef) {
-        Object(_core_536a6045_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
         this.type = 'html';
     }
     componentWillLoad() {
@@ -23147,11 +23146,11 @@ const Field = class {
     render() {
         return [
             // need to keep render the slot to make it easy to hide it in IE
-            Object(_core_536a6045_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", { class: 'slot' }, Object(_core_536a6045_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)),
-            Object(_core_536a6045_js__WEBPACK_IMPORTED_MODULE_0__["h"])("pre", null, Object(_core_536a6045_js__WEBPACK_IMPORTED_MODULE_0__["h"])("code", Object.assign({ class: this.type }, { innerHTML: this.code }))),
+            Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", { class: 'slot' }, Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null)),
+            Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["h"])("pre", null, Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["h"])("code", Object.assign({ class: this.type }, { innerHTML: this.code }))),
         ];
     }
-    get el() { return Object(_core_536a6045_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this); }
+    get el() { return Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this); }
     static get style() { return "/*\n\ngithub.com style (c) Vasily Polovnyov <vast\@whiteants.net>\n\n*/\n.hljs {\n  display: block;\n  overflow-x: auto;\n  padding: 0.5em;\n  color: #333;\n  background: #f8f8f8;\n}\n\n.hljs-comment,\n.hljs-quote {\n  color: #998;\n  font-style: italic;\n}\n\n.hljs-keyword,\n.hljs-selector-tag,\n.hljs-subst {\n  color: #333;\n  font-weight: bold;\n}\n\n.hljs-number,\n.hljs-literal,\n.hljs-variable,\n.hljs-template-variable,\n.hljs-tag .hljs-attr {\n  color: #008080;\n}\n\n.hljs-string,\n.hljs-doctag {\n  color: #d14;\n}\n\n.hljs-title,\n.hljs-section,\n.hljs-selector-id {\n  color: #900;\n  font-weight: bold;\n}\n\n.hljs-subst {\n  font-weight: normal;\n}\n\n.hljs-type,\n.hljs-class .hljs-title {\n  color: #458;\n  font-weight: bold;\n}\n\n.hljs-tag,\n.hljs-name,\n.hljs-attribute {\n  color: #000080;\n  font-weight: normal;\n}\n\n.hljs-regexp,\n.hljs-link {\n  color: #009926;\n}\n\n.hljs-symbol,\n.hljs-bullet {\n  color: #990073;\n}\n\n.hljs-built_in,\n.hljs-builtin-name {\n  color: #0086b3;\n}\n\n.hljs-meta {\n  color: #999;\n  font-weight: bold;\n}\n\n.hljs-deletion {\n  background: #fdd;\n}\n\n.hljs-addition {\n  background: #dfd;\n}\n\n.hljs-emphasis {\n  font-style: italic;\n}\n\n.hljs-strong {\n  font-weight: bold;\n}\n\n:host {\n  display: block;\n}\n:host .slot {\n  display: none;\n}\n\npre,\npre code {\n  white-space: pre-wrap;\n  margin: 0;\n  color: grey;\n}"; }
 };
 

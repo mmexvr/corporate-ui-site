@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["dom-96781eef-a2fb04dd-js"],{
 
-/***/ "../corporate-ui-dev/dist/esm/dom-96781eef-a2fb04dd.js":
-/*!*************************************************************!*\
-  !*** ../corporate-ui-dev/dist/esm/dom-96781eef-a2fb04dd.js ***!
-  \*************************************************************/
+/***/ "./node_modules/corporate-ui-dev/dist/esm/dom-96781eef-a2fb04dd.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/corporate-ui-dev/dist/esm/dom-96781eef-a2fb04dd.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 

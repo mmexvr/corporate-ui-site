@@ -1,16 +1,16 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[4],{
 
-/***/ "./node_modules/corporate-ui-dev/dist/esm/c-global-style.entry.js":
-/*!************************************************************************!*\
-  !*** ./node_modules/corporate-ui-dev/dist/esm/c-global-style.entry.js ***!
-  \************************************************************************/
+/***/ "../corporate-ui/dist/esm/c-global-style.entry.js":
+/*!********************************************************!*\
+  !*** ../corporate-ui/dist/esm/c-global-style.entry.js ***!
+  \********************************************************/
 /*! exports provided: c_global_style */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c_global_style", function() { return GlobalStyle; });
-/* harmony import */ var _core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-7b39e2be.js */ "./node_modules/corporate-ui-dev/dist/esm/core-7b39e2be.js");
+/* harmony import */ var _core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-7b39e2be.js */ "../corporate-ui/dist/esm/core-7b39e2be.js");
 
 
 const GlobalStyle = class {
@@ -24,11 +24,11 @@ const GlobalStyle = class {
         this.currentTheme = this.store.getState().theme.items[this.theme];
     }
     async loadLibs() {
-        const jquery = await __webpack_require__.e(/*! import() | jquery-c308a28d-js */ "default~bootstrap-af56c601-js~jquery-c308a28d-js").then(__webpack_require__.bind(null, /*! ./jquery-c308a28d.js */ "./node_modules/corporate-ui-dev/dist/esm/jquery-c308a28d.js"));
+        const jquery = await __webpack_require__.e(/*! import() | jquery-c308a28d-js */ "default~bootstrap-af56c601-js~jquery-c308a28d-js").then(__webpack_require__.bind(null, /*! ./jquery-c308a28d.js */ "../corporate-ui/dist/esm/jquery-c308a28d.js"));
         /* eslint-disable dot-notation */
         window['CorporateUi'].$ = jquery.default;
         /* eslint-enable dot-notation */
-        await Promise.all(/*! import() | bootstrap-af56c601-js */[__webpack_require__.e("default~bootstrap-af56c601-js~jquery-c308a28d-js"), __webpack_require__.e("bootstrap-af56c601-js")]).then(__webpack_require__.bind(null, /*! ./bootstrap-af56c601.js */ "./node_modules/corporate-ui-dev/dist/esm/bootstrap-af56c601.js"));
+        await Promise.all(/*! import() | bootstrap-af56c601-js */[__webpack_require__.e("default~bootstrap-af56c601-js~jquery-c308a28d-js"), __webpack_require__.e("bootstrap-af56c601-js")]).then(__webpack_require__.bind(null, /*! ./bootstrap-af56c601.js */ "../corporate-ui/dist/esm/bootstrap-af56c601.js"));
     }
     componentWillLoad() {
         this.loadLibs();

@@ -1,14 +1,14 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[7], {
-        /***/ "./node_modules/corporate-ui-dev/dist/esm/c-icon.entry.js": 
-        /*!****************************************************************!*\
-          !*** ./node_modules/corporate-ui-dev/dist/esm/c-icon.entry.js ***!
-          \****************************************************************/
+        /***/ "../corporate-ui/dist/esm/c-icon.entry.js": 
+        /*!************************************************!*\
+          !*** ../corporate-ui/dist/esm/c-icon.entry.js ***!
+          \************************************************/
         /*! exports provided: c_icon */
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
             /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c_icon", function () { return Icon; });
-            /* harmony import */ var _core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-7b39e2be.js */ "./node_modules/corporate-ui-dev/dist/esm/core-7b39e2be.js");
+            /* harmony import */ var _core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-7b39e2be.js */ "../corporate-ui/dist/esm/core-7b39e2be.js");
             var Icon = /** @class */ (function () {
                 function class_1(hostRef) {
                     Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);

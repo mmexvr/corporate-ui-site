@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["dom-js"],{
 
-/***/ "./node_modules/corporate-ui-dev/dist/esm/polyfills/dom.js":
-/*!*****************************************************************!*\
-  !*** ./node_modules/corporate-ui-dev/dist/esm/polyfills/dom.js ***!
-  \*****************************************************************/
+/***/ "../corporate-ui/dist/esm/polyfills/dom.js":
+/*!*************************************************!*\
+  !*** ../corporate-ui/dist/esm/polyfills/dom.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 

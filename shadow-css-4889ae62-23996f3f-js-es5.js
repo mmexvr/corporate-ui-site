@@ -1,8 +1,8 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["shadow-css-4889ae62-23996f3f-js"], {
-        /***/ "./node_modules/corporate-ui-dev/dist/esm/shadow-css-4889ae62-23996f3f.js": 
-        /*!********************************************************************************!*\
-          !*** ./node_modules/corporate-ui-dev/dist/esm/shadow-css-4889ae62-23996f3f.js ***!
-          \********************************************************************************/
+        /***/ "../corporate-ui/dist/esm/shadow-css-4889ae62-23996f3f.js": 
+        /*!****************************************************************!*\
+          !*** ../corporate-ui/dist/esm/shadow-css-4889ae62-23996f3f.js ***!
+          \****************************************************************/
         /*! exports provided: scopeCss */
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";

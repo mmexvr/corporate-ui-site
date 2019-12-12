@@ -5,7 +5,7 @@
           \**********************************************************************************************************************************************************************************************************************/
         /*! no static exports found */
         /***/ (function (module, exports) {
-            module.exports = [[module.i, "html {\n  height: 100%;\n}\n\nhtml,\nbody {\n  display: flex;\n  flex-direction: column;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9DOlxcZ2l0LXJlcG9zXFxjb3Jwb3JhdGUtdWktc2l0ZS9zcmNcXHN0eWxlcy5zY3NzIiwic3JjL3N0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksWUFBQTtBQ0NKOztBRENBOztFQUVJLGFBQUE7RUFDQSxzQkFBQTtBQ0VKIiwiZmlsZSI6InNyYy9zdHlsZXMuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImh0bWwge1xuICAgIGhlaWdodDogMTAwJTtcbn1cbmh0bWwsXG5ib2R5IHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG59XG4iLCJodG1sIHtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuXG5odG1sLFxuYm9keSB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG59Il19 */", '', '']];
+            module.exports = [[module.i, "html {\n  height: 100%;\n}\n\nhtml,\nbody {\n  display: flex;\n  flex-direction: column;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9DOlxcVXNlcnNcXGV5dXo3OFxcZGV2ZWxvcG1lbnRcXGNvcnBvcmF0ZS11aS1zaXRlL3NyY1xcc3R5bGVzLnNjc3MiLCJzcmMvc3R5bGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxZQUFBO0FDQ0o7O0FEQ0E7O0VBRUksYUFBQTtFQUNBLHNCQUFBO0FDRUoiLCJmaWxlIjoic3JjL3N0eWxlcy5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaHRtbCB7XHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbn1cclxuaHRtbCxcclxuYm9keSB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxufVxyXG4iLCJodG1sIHtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuXG5odG1sLFxuYm9keSB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG59Il19 */", '', '']];
             /***/ 
         }),
         /***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js": 
@@ -276,7 +276,7 @@
           \*******************************/
         /*! no static exports found */
         /***/ (function (module, exports, __webpack_require__) {
-            module.exports = __webpack_require__(/*! C:\git-repos\corporate-ui-site\src\styles.scss */ "./src/styles.scss");
+            module.exports = __webpack_require__(/*! C:\Users\eyuz78\development\corporate-ui-site\src\styles.scss */ "./src/styles.scss");
             /***/ 
         })
     }, [[3, "runtime"]]]);

@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["css-shim-978387b1-1e75855f-js"],{
 
-/***/ "../corporate-ui/dist/esm/css-shim-978387b1-1e75855f.js":
-/*!**************************************************************!*\
-  !*** ../corporate-ui/dist/esm/css-shim-978387b1-1e75855f.js ***!
-  \**************************************************************/
+/***/ "./node_modules/corporate-ui/dist/esm/css-shim-978387b1-1e75855f.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/corporate-ui/dist/esm/css-shim-978387b1-1e75855f.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 

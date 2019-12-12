@@ -1,14 +1,14 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[6], {
-        /***/ "../corporate-ui/dist/esm/c-hello-world.entry.js": 
-        /*!*******************************************************!*\
-          !*** ../corporate-ui/dist/esm/c-hello-world.entry.js ***!
-          \*******************************************************/
+        /***/ "./node_modules/corporate-ui/dist/esm/c-hello-world.entry.js": 
+        /*!*******************************************************************!*\
+          !*** ./node_modules/corporate-ui/dist/esm/c-hello-world.entry.js ***!
+          \*******************************************************************/
         /*! exports provided: c_hello_world */
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
             /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c_hello_world", function () { return HelloWorld; });
-            /* harmony import */ var _core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-7b39e2be.js */ "../corporate-ui/dist/esm/core-7b39e2be.js");
+            /* harmony import */ var _core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-7b39e2be.js */ "./node_modules/corporate-ui/dist/esm/core-7b39e2be.js");
             var HelloWorld = /** @class */ (function () {
                 function class_1(hostRef) {
                     Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);

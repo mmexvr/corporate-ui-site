@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[0],{
 
-/***/ "../corporate-ui/dist/esm/_commonjsHelpers-91036208.js":
-/*!*************************************************************!*\
-  !*** ../corporate-ui/dist/esm/_commonjsHelpers-91036208.js ***!
-  \*************************************************************/
+/***/ "./node_modules/corporate-ui/dist/esm/_commonjsHelpers-91036208.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/corporate-ui/dist/esm/_commonjsHelpers-91036208.js ***!
+  \*************************************************************************/
 /*! exports provided: a, c, u */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -35,18 +35,18 @@ function getCjsExportFromNamespace (n) {
 
 /***/ }),
 
-/***/ "../corporate-ui/dist/esm/c-code-sample.entry.js":
-/*!*******************************************************!*\
-  !*** ../corporate-ui/dist/esm/c-code-sample.entry.js ***!
-  \*******************************************************/
+/***/ "./node_modules/corporate-ui/dist/esm/c-code-sample.entry.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/corporate-ui/dist/esm/c-code-sample.entry.js ***!
+  \*******************************************************************/
 /*! exports provided: c_code_sample */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c_code_sample", function() { return Field; });
-/* harmony import */ var _core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-7b39e2be.js */ "../corporate-ui/dist/esm/core-7b39e2be.js");
-/* harmony import */ var _commonjsHelpers_91036208_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./_commonjsHelpers-91036208.js */ "../corporate-ui/dist/esm/_commonjsHelpers-91036208.js");
+/* harmony import */ var _core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-7b39e2be.js */ "./node_modules/corporate-ui/dist/esm/core-7b39e2be.js");
+/* harmony import */ var _commonjsHelpers_91036208_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./_commonjsHelpers-91036208.js */ "./node_modules/corporate-ui/dist/esm/_commonjsHelpers-91036208.js");
 
 
 

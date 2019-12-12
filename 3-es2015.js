@@ -1,16 +1,16 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[3],{
 
-/***/ "../corporate-ui/dist/esm/c-footer.entry.js":
-/*!**************************************************!*\
-  !*** ../corporate-ui/dist/esm/c-footer.entry.js ***!
-  \**************************************************/
+/***/ "./node_modules/corporate-ui/dist/esm/c-footer.entry.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/corporate-ui/dist/esm/c-footer.entry.js ***!
+  \**************************************************************/
 /*! exports provided: c_footer */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c_footer", function() { return Footer; });
-/* harmony import */ var _core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-7b39e2be.js */ "../corporate-ui/dist/esm/core-7b39e2be.js");
+/* harmony import */ var _core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-7b39e2be.js */ "./node_modules/corporate-ui/dist/esm/core-7b39e2be.js");
 
 
 const Footer = class {

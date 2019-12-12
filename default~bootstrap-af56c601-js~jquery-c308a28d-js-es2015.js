@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["default~bootstrap-af56c601-js~jquery-c308a28d-js"],{
 
-/***/ "../corporate-ui/dist/esm/_commonjsHelpers-91036208.js":
-/*!*************************************************************!*\
-  !*** ../corporate-ui/dist/esm/_commonjsHelpers-91036208.js ***!
-  \*************************************************************/
+/***/ "./node_modules/corporate-ui/dist/esm/_commonjsHelpers-91036208.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/corporate-ui/dist/esm/_commonjsHelpers-91036208.js ***!
+  \*************************************************************************/
 /*! exports provided: a, c, u */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -35,17 +35,17 @@ function getCjsExportFromNamespace (n) {
 
 /***/ }),
 
-/***/ "../corporate-ui/dist/esm/jquery-c308a28d.js":
-/*!***************************************************!*\
-  !*** ../corporate-ui/dist/esm/jquery-c308a28d.js ***!
-  \***************************************************/
+/***/ "./node_modules/corporate-ui/dist/esm/jquery-c308a28d.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/corporate-ui/dist/esm/jquery-c308a28d.js ***!
+  \***************************************************************/
 /*! exports provided: default, __moduleExports */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__moduleExports", function() { return jquery; });
-/* harmony import */ var _commonjsHelpers_91036208_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./_commonjsHelpers-91036208.js */ "../corporate-ui/dist/esm/_commonjsHelpers-91036208.js");
+/* harmony import */ var _commonjsHelpers_91036208_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./_commonjsHelpers-91036208.js */ "./node_modules/corporate-ui/dist/esm/_commonjsHelpers-91036208.js");
 
 
 var jquery = Object(_commonjsHelpers_91036208_js__WEBPACK_IMPORTED_MODULE_0__["c"])(function (module) {

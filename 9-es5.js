@@ -9,12 +9,12 @@
             __webpack_require__.r(__webpack_exports__);
             /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c_theme", function () { return Theme; });
             /* harmony import */ var _core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-7b39e2be.js */ "../corporate-ui/dist/esm/core-7b39e2be.js");
-            var name = "corporate-ui-dev";
-            var version = "4.0.0-beta.4";
+            var name = "corporate-ui";
+            var version = "4.0.0-beta.5";
             var description = "In this repository we're developing the next generation components for Corporate UI";
             var repository = {
                 type: "git",
-                url: "git+https://github.com/scania/corporate-ui-dev.git"
+                url: "git+https://github.com/scania/corporate-ui.git"
             };
             var module = "dist/collection/index.js";
             var main = "dist/collection/index.js";
@@ -25,8 +25,10 @@
             var scripts = {
                 start: "npm run build -- --watch",
                 build: "npm run babel && npm run stencil --",
-                stencil: "stencil build --docs-json dist/data/docs.json --esm --es5",
+                stencil: "stencil build --docs-json dist/data/docs.json --esm --es5 && npm run rename && npm run renameDev",
                 babel: "mkdirp .build && babel src/helpers/index.js --out-file .build/index.js",
+                rename: "renamer -f \"/^corporate-ui.js$/\" -r \"corporate-ui-stencil.js\" \"dist/*\"",
+                renameDev: "renamer -f \"/^corporate-ui-dev.js$/\" -r \"corporate-ui.js\" \"dist/*\"",
                 lint: "eslint . --ext .js,.jsx,.ts,.tsx",
                 "lint-fix": "npm run lint -- --fix",
                 "lint-debug": "npm run lint -- --debug",
@@ -58,7 +60,8 @@
                 mkdirp: "^0.5.1",
                 "popper.js": "1.15.0",
                 puppeteer: "1.19.0",
-                redux: "4.0.4"
+                redux: "4.0.4",
+                renamer: "1.1.4"
             };
             var license = "MIT";
             var _package = {

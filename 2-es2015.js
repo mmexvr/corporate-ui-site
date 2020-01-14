@@ -47,7 +47,7 @@ const DealerHeader = class {
     static get watchers() { return {
         "theme": ["setTheme"]
     }; }
-    static get style() { return ":host {\n  display: Var(--display);\n}\n:host,\n:host *,\n:host *::before,\n:host *::after {\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\nimg {\n  max-height: 30px;\n}"; }
+    static get style() { return ":host,\n:host *,\n:host *::before,\n:host *::after {\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\nimg {\n  max-height: 30px;\n}"; }
 };
 
 

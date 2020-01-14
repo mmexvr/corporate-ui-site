@@ -56,7 +56,7 @@
                     configurable: true
                 });
                 Object.defineProperty(class_1, "style", {
-                    get: function () { return ":host {\n  display: Var(--display);\n}\n:host,\n:host *,\n:host *::before,\n:host *::after {\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\nimg {\n  max-height: 30px;\n}"; },
+                    get: function () { return ":host,\n:host *,\n:host *::before,\n:host *::after {\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\nimg {\n  max-height: 30px;\n}"; },
                     enumerable: true,
                     configurable: true
                 });

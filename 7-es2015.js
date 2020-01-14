@@ -54,7 +54,7 @@ const Icon = class {
         "theme": ["setTheme"],
         "name": ["setIcon"]
     }; }
-    static get style() { return ":host {\n  display: Var(--display);\n}\n:host,\n:host *,\n:host *::before,\n:host *::after {\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\n:host {\n  display: inline-block;\n  vertical-align: middle;\n  line-height: 0;\n}\n:host svg {\n  height: 1em;\n  width: 1em;\n  fill: currentColor;\n}"; }
+    static get style() { return ":host,\n:host *,\n:host *::before,\n:host *::after {\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\n:host {\n  display: inline-block;\n  vertical-align: middle;\n  line-height: 0;\n}\n:host svg {\n  height: 1em;\n  width: 1em;\n  fill: currentColor;\n}"; }
 };
 
 

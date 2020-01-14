@@ -61,7 +61,7 @@
                     configurable: true
                 });
                 Object.defineProperty(class_1, "style", {
-                    get: function () { return ":host {\n  display: Var(--display);\n}\n:host,\n:host *,\n:host *::before,\n:host *::after {\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\n:host {\n  -ms-flex-positive: 1;\n  flex-grow: 1;\n  -ms-flex-negative: 0;\n  flex-shrink: 0;\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n/*::slotted(section) {\n  color: var(--danger) !important;\n}\n\n::slotted(section) div {\n  color: yellow !important;\n}*/"; },
+                    get: function () { return ":host,\n:host *,\n:host *::before,\n:host *::after {\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\n:host {\n  -ms-flex-positive: 1;\n  flex-grow: 1;\n  -ms-flex-negative: 0;\n  flex-shrink: 0;\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n/*::slotted(section) {\n  color: var(--danger) !important;\n}\n\n::slotted(section) div {\n  color: yellow !important;\n}*/"; },
                     enumerable: true,
                     configurable: true
                 });

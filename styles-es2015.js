@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = [[module.i, "html {\n  height: 100%;\n}\n\nhtml,\nbody {\n  display: flex;\n  flex-direction: column;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9DOlxcRGV2XFxjb3Jwb3JhdGUtdWktc2l0ZS9zcmNcXHN0eWxlcy5zY3NzIiwic3JjL3N0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksWUFBQTtBQ0NKOztBRENBOztFQUVJLGFBQUE7RUFDQSxzQkFBQTtBQ0VKIiwiZmlsZSI6InNyYy9zdHlsZXMuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImh0bWwge1xyXG4gICAgaGVpZ2h0OiAxMDAlO1xyXG59XHJcbmh0bWwsXHJcbmJvZHkge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbn1cclxuIiwiaHRtbCB7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuaHRtbCxcbmJvZHkge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xufSJdfQ== */", '', '']]
+module.exports = [[module.i, "html {\n  height: 100%;\n}\n\nhtml,\nbody {\n  display: flex;\n  flex-direction: column;\n}\n\nbody {\n  margin: 0;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9DOlxcRGV2XFxjb3Jwb3JhdGUtdWktc2l0ZS9zcmNcXHN0eWxlcy5zY3NzIiwic3JjL3N0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksWUFBQTtBQ0NKOztBRENBOztFQUVJLGFBQUE7RUFDQSxzQkFBQTtBQ0VKOztBREFBO0VBQ0ksU0FBQTtBQ0dKIiwiZmlsZSI6InNyYy9zdHlsZXMuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImh0bWwge1xyXG4gICAgaGVpZ2h0OiAxMDAlO1xyXG59XHJcbmh0bWwsXHJcbmJvZHkge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbn1cclxuYm9keSB7XHJcbiAgICBtYXJnaW46IDA7XHJcbn1cclxuIiwiaHRtbCB7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuaHRtbCxcbmJvZHkge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xufVxuXG5ib2R5IHtcbiAgbWFyZ2luOiAwO1xufSJdfQ== */", '', '']]
 
 /***/ }),
 

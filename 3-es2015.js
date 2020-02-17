@@ -10,18 +10,18 @@
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c_footer", function() { return Footer; });
-/* harmony import */ var _core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-7b39e2be.js */ "./node_modules/corporate-ui/dist/esm/core-7b39e2be.js");
+/* harmony import */ var _core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-18aa72ad.js */ "./node_modules/corporate-ui/dist/esm/core-18aa72ad.js");
 
 
 const Footer = class {
     constructor(hostRef) {
-        Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+        Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
         /** Change default copyright text */
         this.text = 'Copyright © Scania 2019';
         this.show = false;
         this.initialSlot = '';
         this.currentTheme = { components: [] };
-        this.ContextStore = Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "store");
+        this.ContextStore = Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "store");
     }
     setItems(items) {
         this.items = this.parse(items);
@@ -55,16 +55,16 @@ const Footer = class {
     }
     render() {
         return [
-            this.currentTheme ? Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["h"])("style", null, this.currentTheme.components[this.tagName]) : '',
-            Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["h"])("nav", { class: 'navbar navbar-expand-lg navbar-default' }, Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["h"])("strong", { class: 'navbar-brand' }), Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["h"])("nav", { class: 'social-items' }, this.socialItems.map(item => (Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["h"])("a", Object.assign({}, item, { class: 'social-item' }), Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["h"])("c-icon", { name: item.icon })))), Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", { name: 'social-items' })), this.initialSlot.indexOf('slot="items"') > 0 || this.items
-                ? Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["h"])("nav", { class: 'navbar-nav' }, this.items.map((item) => {
+            this.currentTheme ? Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["h"])("style", null, this.currentTheme.components[this.tagName]) : '',
+            Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["h"])("nav", { class: 'navbar navbar-expand-lg navbar-default' }, Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["h"])("strong", { class: 'navbar-brand' }), Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["h"])("nav", { class: 'social-items' }, this.socialItems.map(item => (Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["h"])("a", Object.assign({}, item, { class: 'social-item' }), Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["h"])("c-icon", { name: item.icon })))), Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", { name: 'social-items' })), this.initialSlot.indexOf('slot="items"') > 0 || this.items
+                ? Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["h"])("nav", { class: 'navbar-nav' }, this.items.map((item) => {
                     item.class = this.combineClasses(item.class);
-                    return Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["h"])("a", Object.assign({}, item));
-                }), Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", { name: 'items' }))
-                : '', Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["h"])("p", null, this.text, Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", { name: 'text' }))),
+                    return Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["h"])("a", Object.assign({}, item));
+                }), Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", { name: 'items' }))
+                : '', Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["h"])("p", null, this.text, Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", { name: 'text' }))),
         ];
     }
-    get el() { return Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this); }
+    get el() { return Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this); }
     static get watchers() { return {
         "items": ["setItems"],
         "socialItems": ["setSocialItems"],

@@ -43,12 +43,12 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
             /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c_global_style", function () { return GlobalStyle; });
-            /* harmony import */ var _core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-7b39e2be.js */ "./node_modules/corporate-ui/dist/esm/core-7b39e2be.js");
+            /* harmony import */ var _core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-18aa72ad.js */ "./node_modules/corporate-ui/dist/esm/core-18aa72ad.js");
             var GlobalStyle = /** @class */ (function () {
                 function class_1(hostRef) {
-                    Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+                    Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
                     this.currentTheme = { components: [] };
-                    this.ContextStore = Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "store");
+                    this.ContextStore = Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["d"])(this, "store");
                 }
                 class_1.prototype.setTheme = function (name) {
                     if (name === void 0) { name = undefined; }
@@ -86,10 +86,10 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
                     this.tagName = this.el.nodeName.toLowerCase();
                 };
                 class_1.prototype.render = function () {
-                    return this.currentTheme ? Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["h"])("style", null, this.currentTheme.components[this.tagName]) : '';
+                    return this.currentTheme ? Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["h"])("style", null, this.currentTheme.components[this.tagName]) : '';
                 };
                 Object.defineProperty(class_1.prototype, "el", {
-                    get: function () { return Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this); },
+                    get: function () { return Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this); },
                     enumerable: true,
                     configurable: true
                 });

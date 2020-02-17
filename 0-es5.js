@@ -34,7 +34,7 @@
             "use strict";
             __webpack_require__.r(__webpack_exports__);
             /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c_code_sample", function () { return Field; });
-            /* harmony import */ var _core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-7b39e2be.js */ "./node_modules/corporate-ui/dist/esm/core-7b39e2be.js");
+            /* harmony import */ var _core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-18aa72ad.js */ "./node_modules/corporate-ui/dist/esm/core-18aa72ad.js");
             /* harmony import */ var _commonjsHelpers_91036208_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./_commonjsHelpers-91036208.js */ "./node_modules/corporate-ui/dist/esm/_commonjsHelpers-91036208.js");
             var highlight = Object(_commonjsHelpers_91036208_js__WEBPACK_IMPORTED_MODULE_1__["c"])(function (module, exports) {
                 /*
@@ -1350,7 +1350,7 @@
             };
             var Field = /** @class */ (function () {
                 function class_1(hostRef) {
-                    Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+                    Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
                     this.type = 'html';
                 }
                 class_1.prototype.componentWillLoad = function () {
@@ -1371,12 +1371,12 @@
                 };
                 class_1.prototype.render = function () {
                     return [
-                        Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null),
-                        Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["h"])("pre", null, Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["h"])("code", Object.assign({ class: this.type }, { innerHTML: this.code })))
+                        Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["h"])("slot", null),
+                        Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["h"])("pre", null, Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["h"])("code", Object.assign({ class: this.type }, { innerHTML: this.code })))
                     ];
                 };
                 Object.defineProperty(class_1.prototype, "el", {
-                    get: function () { return Object(_core_7b39e2be_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this); },
+                    get: function () { return Object(_core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__["c"])(this); },
                     enumerable: true,
                     configurable: true
                 });

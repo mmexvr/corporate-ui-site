@@ -10,7 +10,7 @@
             /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c_theme", function () { return Theme; });
             /* harmony import */ var _core_18aa72ad_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core-18aa72ad.js */ "./node_modules/corporate-ui/dist/esm/core-18aa72ad.js");
             var name = "corporate-ui";
-            var version = "4.0.3-0";
+            var version = "4.0.3";
             var description = "In this repository we're developing the next generation components for Corporate UI";
             var repository = {
                 type: "git",
